@@ -20,12 +20,12 @@ class Trener;
 
 class Trener: public Pracownik
 {
-	public: std::vector<Karta_zdrowia*> _unnamed_Karta_zdrowia_;
+	//public: std::vector<Karta_zdrowia*> _unnamed_Karta_zdrowia_;
 	public: std::vector<Grupa_zajêciowa*> _unnamed_Grupa_zajêciowa_;
 	public: std::vector<Trening_personalny*> _unnamed_Trening_personalny_;
 
 	public: void stwórz_plan_treningowy();
-        public: void wglad_do_karty_zdrowia();
+        public: void wglad_do_karty_zdrowia(Karta_zdrowia);
 	public: string dostępność_godzinowa();
 };
 
