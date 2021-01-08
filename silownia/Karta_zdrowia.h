@@ -14,9 +14,9 @@ class Karta_zdrowia;
 
 class Karta_zdrowia
 {
-	private: string _masa:_int;
-	private: string _wzrost:_int;
-	private: string _grupa_krwi;
+	public: int _masa;
+	public: int  _wzrost;
+	public: string _grupa_krwi;
 	public: Klient* _unnamed_Klient_;
 	public: Trener* _unnamed_Trener_;
 
