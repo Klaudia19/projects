@@ -23,7 +23,7 @@ class Trener: public Pracownik
 	public: std::vector<Trening_personalny*> _unnamed_Trening_personalny_;
 
 	public: void stwórz_plan_treningowy();
-        public: void wglad_do_karty_zdrowia(Karta_zdrowia);
+        public: void wglad_do_karty_zdrowia(Klient);
 	public: int[70] dostępność_godzinowa();
 };
 
