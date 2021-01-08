@@ -15,12 +15,12 @@ void Trener::stwórz_plan_treningowy()
 	
 }
 
-void Trener::modyfikuj_plan_treningowy()
+void Trener::wglad_do_karty_zdrowia(Karta_zdrowia)
 {
 	
 }
 
-int Trener::dostêpnoœæ_godzinowa()
+int Trener::dostepnosc_godzinowa()
 {
 	
 }
