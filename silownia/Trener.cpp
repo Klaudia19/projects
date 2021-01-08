@@ -20,7 +20,7 @@ void Trener::modyfikuj_plan_treningowy()
 	
 }
 
-string Trener::dostêpnoœæ_godzinowa()
+int Trener::dostêpnoœæ_godzinowa()
 {
 	
 }
