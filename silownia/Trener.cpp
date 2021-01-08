@@ -10,10 +10,6 @@ using namespace std;
 #include "Trening_personalny.h"
 #include "Pracownik.h"
 
-void Trener::stwórz_plan_treningowy()
-{
-	
-}
 
 void Trener::wglad_do_karty_zdrowia(Karta_zdrowia)
 {
